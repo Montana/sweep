@@ -75,7 +75,7 @@ function get_timestamp ()
           then
              print_warn "REPO AGED BEFORE TODAY"
              #
-             # continued proc --> no commit found within 24hr
+             # continued proc --> no commit found within 24hr --> w Montana's git 
              #
         else
              print_warn "MONTANA'S REPO AGED TODAY"
